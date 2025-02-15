@@ -4,9 +4,10 @@ import { GlobalStyle } from './styles/globalStyle';
 
 function App() {
   return (
-    <GlobalStyle>
+    <div id="App">
+      <GlobalStyle />
       <Router />
-    </GlobalStyle>
+    </div>
   );
 }
 
